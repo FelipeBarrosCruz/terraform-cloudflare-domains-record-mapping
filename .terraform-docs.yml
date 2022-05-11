@@ -1,0 +1,17 @@
+content: |-
+  {{ .Header }}
+
+  {{ .Requirements }}
+
+  {{ .Providers }}
+
+  {{ .Resources }}
+
+  {{ .Inputs }}
+
+  {{ .Outputs }} 
+
+  ## Example
+  ```hcl
+  {{ include "examples/main.tf" }}
+  ```
